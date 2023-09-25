@@ -1,4 +1,4 @@
 export function someFn(arg: number): string {
-    console.log('text');
+    console.log(arg);
     return 'text'
 }

@@ -1,9 +1,18 @@
 {
     "compilerOptions": {
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "module": "es6",
         "target": "es5",
-        "removeComments": true,
-        "outDir": "js",
-        "sourceMap": true,
-        "outFile": "main.js"
-    }
+        "jsx": "react",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true
+      },
+      "ts-node": {
+        "compilerOptions": {
+          "module": "CommonJS"
+        }
+      }
 }
